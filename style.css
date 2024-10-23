@@ -9,8 +9,16 @@ ul, ol, li{
 list-style: none;
 }
 
+html, body{
+    scroll-behavior: smooth;
+}
+
+
+
 header{
     background-color: #333;
+    position: fixed;
+    width: 100vw;
 }
 
 header nav ul{
@@ -21,7 +29,7 @@ header nav ul{
 
 header nav a{
     color: white;
-    padding: 8px;
+    padding: 86x;
     transition: background-color 1s;
 }
 
@@ -29,4 +37,24 @@ header nav a:hover{
     background-color: lightblue;
     color: black;
     padding: 8px;
+}
+
+.grupo{
+    height: 100vh;
+}
+
+#vermelho{
+    background-color: #ff6b6b;
+}
+#verde{
+    background-color: #1dd1a1;
+}
+#azul{
+    background-color: #54a0ff;
+}
+#amarelo{
+    background-color: #feca57;
+}
+#roxo{
+    background-color: purple;
 }
