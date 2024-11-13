@@ -44,17 +44,136 @@ header nav a:hover{
 }
 
 #vermelho{
-    background-color: #ff6b6b;
+    background-color: #FF0000;
 }
 #verde{
-    background-color: #1dd1a1;
+    background-color: #699F2A;
 }
 #azul{
-    background-color: #54a0ff;
+    background-color: #54A0FF;
 }
-#amarelo{
-    background-color: #feca57;
+#branco{
+    background-color: #FFFFFF;
 }
 #roxo{
-    background-color: purple;
+    background-color: #6206BF;
+}
+
+.yorichi{
+    height: 100vh ;
+    margin-top: 5vh;
+}
+
+.zoro{
+    height: 85vh;
+    margin-top: 5vh;
+    align-items: center;
+    float: right;
+}
+.tomioka{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    margin: auto;
+}
+.yuta{
+height: 100vh;
+}
+.kokushibo{
+    float: right;
+    height: 100vh;
+}
+.titulo1{
+    text-align: center;
+    position: relative;
+    top: -900px;
+    margin-left: 100px;
+    color: white;
+    font-size: 60px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+
+.texto1{
+    color: white;
+    position: relative;
+    top: -900px;
+    text-align: left;
+    width: 80vh;
+    margin-left: 800px;
+    font-size: 40px
+}
+
+.titulo2{
+    position: relative;
+    top: 30px;
+    color: white;
+    margin-left: 199px;
+    font-size: 40px;
+}
+.texto2{
+    color: white;
+    position: relative;
+    top: 50px;
+    text-align: left;
+    width: 80vh;
+    margin-left: 80px;
+    font-size: 40px;
+}
+
+.titulo3{
+    color: white;
+    position: relative;
+ top: -800px;
+ margin-left: 180px;
+ font-size: 45px;
+}
+
+.texto3{
+    color: white;
+    position: relative;
+    top: -800px;
+    width: 70vh;
+    margin-left: 90px;
+    margin-top: -25px;
+  font-size: 40px;
+}
+
+.titulo4{
+    float: right;
+    color: black;
+    margin-right: 400px;
+    font-size: 47px;
+    position: relative;
+    top: -999px;
+
+
+}
+.texto4{
+    color: black;
+    position: relative;
+    top: -900px;
+    text-align: left;
+    width: 80vh;
+    margin-left: 995px;
+    font-size: 37px
+
+}
+.titulo5{
+    float: right;
+    color: white;
+    margin-right: 400px;
+    font-size: 47px;
+    position: relative;
+    top: -999px;
+}
+.texto5{
+    color: white;
+    position: relative;
+    top: -900px;
+    text-align: left;
+    width: 95vh;
+    margin-left: 900px;
+    font-size: 40px
 }
